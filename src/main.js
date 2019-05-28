@@ -12,9 +12,9 @@ Vue.directive('highlight', {
    setTimeout(() => {
     if(binding.arg == 'background') {
       el.style.backgroundColor = binding.value
-     }else {
+      }else {
        el.style.color = binding.value
-     }
+      }
    }, delay)
   }
 })
